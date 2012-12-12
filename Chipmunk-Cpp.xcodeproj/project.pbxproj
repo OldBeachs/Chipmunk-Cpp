@@ -762,6 +762,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B244131D1678952600C1D8A8 /* Chipmunk-Cpp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Chipmunk-Cpp";
+			sourceTree = "<group>";
+		};
 		DA97AED01678933100AC698D = {
 			isa = PBXGroup;
 			children = (
@@ -1634,6 +1641,7 @@
 		DA97B18A1678933500AC698D /* chipmunk */ = {
 			isa = PBXGroup;
 			children = (
+				B244131D1678952600C1D8A8 /* Chipmunk-Cpp */,
 				DA97B18B1678933500AC698D /* chipmunk-docs.html */,
 				DA97B1A81678933500AC698D /* LICENSE.txt */,
 				DA97B1A91678933500AC698D /* README.txt */,
@@ -2168,6 +2176,7 @@
 				DA97B1F71678933600AC698D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
