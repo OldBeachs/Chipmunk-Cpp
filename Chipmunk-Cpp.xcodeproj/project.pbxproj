@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA4F12DD1678DF4C00EC1EB5 /* CPPBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA4F12DB1678DF4C00EC1EB5 /* CPPBody.cpp */; };
 		DA97AEE01678933100AC698D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA97AEDF1678933100AC698D /* QuartzCore.framework */; };
 		DA97AEE21678933100AC698D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA97AEE11678933100AC698D /* OpenGLES.framework */; };
 		DA97AEE41678933100AC698D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA97AEE31678933100AC698D /* OpenAL.framework */; };
@@ -240,6 +241,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA4F12DB1678DF4C00EC1EB5 /* CPPBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPBody.cpp; sourceTree = "<group>"; };
+		DA4F12DC1678DF4C00EC1EB5 /* CPPBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPBody.h; sourceTree = "<group>"; };
 		DA97AEDB1678933100AC698D /* Chipmunk-Cpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chipmunk-Cpp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA97AEDF1678933100AC698D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DA97AEE11678933100AC698D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -765,6 +768,8 @@
 		B244131D1678952600C1D8A8 /* Chipmunk-Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				DA4F12DB1678DF4C00EC1EB5 /* CPPBody.cpp */,
+				DA4F12DC1678DF4C00EC1EB5 /* CPPBody.h */,
 			);
 			name = "Chipmunk-Cpp";
 			sourceTree = "<group>";
@@ -2045,6 +2050,7 @@
 				DA97B1E61678933600AC698D /* cpVect.c in Sources */,
 				DA97B1ED1678933600AC698D /* AppDelegate.cpp in Sources */,
 				DA97B1F01678933600AC698D /* HelloWorldScene.cpp in Sources */,
+				DA4F12DD1678DF4C00EC1EB5 /* CPPBody.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
